@@ -24,7 +24,7 @@ function insertNumber(number)
 function operators(nextOperator)
 {
    const {input1, operator, displayNumber} = values;
-   const inputValue = displayNumber;
+   const inputValue = parseFloat(displayNumber);
    if(operator && values.nextInput === true)
    {
       values.operator = nextOperator;
@@ -38,7 +38,7 @@ function operators(nextOperator)
    else if(operator)
    {
       const result = calculate(input1, inputValue, operator);
-      values.displayNumber = result;
+      values.displayNumber = String(result);
       values.input1 = result;
    }
    values.nextInput = true;
