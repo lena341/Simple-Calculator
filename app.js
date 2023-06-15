@@ -27,7 +27,7 @@ function operators(nextOperator)
    const inputValue = displayNumber;
    if(operator && values.nextInput === true)
    {
-      values.operator = nextOperator; //Η τιμη του τελεστη ισουται με την τιμη του νεου τελεστη σε περιπτωση που ο χρηστης θελει αλλο τελεστη
+      values.operator = nextOperator;
       console.log(values);
       return;
    }
