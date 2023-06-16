@@ -4,7 +4,7 @@
 
 body
 {
-    background-color: #fafaff;
+    background-color: #f6f6ff;
 }
 
 .calculator
@@ -13,30 +13,30 @@ body
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgba(147, 147, 147, 0.20);
     margin: auto;
-    padding: 20px;
-    width: 400px;
+    padding: 10px;
+    width: 380px;
 }
 
-.calculator-keys, .calculator-screen
+.calculator-keys
 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 5px 10px;
-    margin: auto;
+    grid-template-columns: 80px 80px 80px 80px;
+    
+    gap: 6px 7px;
+    margin: 7px 9px;
     max-width: 350px;
-    max-height: 400px;
+    max-height: 410px;
 }
 
 .calculator-keys > button
 {
-    padding: 22px 8px 22px 8px;
+    
     border-radius: 10px;
     background-color: rgba(246, 246, 246, 0);
     box-shadow: 0 6px 20px 0 rgba(147, 147, 147, 0.19);
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .calculator-keys > button:hover
@@ -46,11 +46,11 @@ body
 
 .calculator-screen
 {
-    width: 357px;
-    height: 130px;
-    padding: 20px;
-    margin-bottom: 10px;
-    justify-content: end;
+    width: 330px;
+    height: 120px;
+    
+    margin:10px 15px;
+    
     background-color: black;
     color: white;
     border: none;
