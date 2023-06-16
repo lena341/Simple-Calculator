@@ -24,8 +24,8 @@ body
     
     gap: 6px 7px;
     margin: 7px 9px;
-    max-width: 350px;
-    max-height: 410px;
+    width: 350px;
+    height: 410px;
 }
 
 .calculator-keys > button
